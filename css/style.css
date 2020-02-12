@@ -22,7 +22,7 @@ body {
   background-color: #E0E0E0;
   width: auto;
   padding: 2%;
-  display: block;
+  /*display: block; */
 }
 
 /*.title-bar {
