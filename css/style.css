@@ -32,5 +32,10 @@ body {
 }
 
 /*  .map {
-  } placeholder
-/*
+    width: 100%;
+  } */
+
+  .currently {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
