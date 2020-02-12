@@ -4,4 +4,16 @@
 
 body {
   font-size: 10px;
+  background-color: #ccc;
+}
+
+.container {  /*height and width are google 2xl pixel size*/
+  background-color: #fff;
+  width: 411px;
+  height: 823px;
+  display: block;
+  margin: 50px auto;
+  border: 1px solid #aaa;
+  padding: 0px;
+  overflow: auto;
 }
