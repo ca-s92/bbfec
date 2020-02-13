@@ -8,10 +8,10 @@ body {
   background-color: #ccc;
 }
 
-.container {  /*height and width are google 2xl pixel size*/
+.container {  /*height and width are google 3xl pixel size*/
   background-color: #fff;
-  width: 411px;
-  height: 823px;
+  width: 360px;
+  height: 740px;
   display: block;
   margin: 50px auto;
   border: 1px solid #aaa;
@@ -47,4 +47,5 @@ body {
   .currently-info {
     margin: 2%;
     font-size: 1.2em;
+    line-height: 130%;
   }
