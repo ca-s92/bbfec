@@ -30,7 +30,7 @@ body {
   background-color: #f5f5f5;
   display: inline;
   width: 0;
-  margin: 0;
+  margin: 10px;
   padding: 0;
   font-size: 1.6em;
   /*text-align: center; */
@@ -38,7 +38,7 @@ body {
 
 .title-bar > .hamburger-menu {
   position: fixed;
-  margin: 10px auto;
+  margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
   display: inline;
 }
 
@@ -48,6 +48,7 @@ body {
 
 .search {
   margin-left: 90%;
+  margin-top: 10px;
 }
 
 /*  .map {
