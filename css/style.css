@@ -27,7 +27,8 @@ body {
 }
 
  .title-bar {
-  background-color: #f5f5f5;
+  background-color: #195485;
+  color: #fff;
   display: inline;
   width: 0;
   margin: 10px;
@@ -37,16 +38,19 @@ body {
 }
 
 .title-bar > .hamburger-menu {
+  background-color: #195485;
   position: fixed;
   margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
   display: inline;
 }
 
 .title-stop {
+  background-color: #195485;
   text-align: center;
 }
 
 .search {
+  background-color: #195485;
   margin-left: 90%;
   margin-top: 10px;
 }
@@ -55,15 +59,18 @@ body {
     width: 100%;
   } */
 
-  .Eastbound {
-
+  .eastbound {
+    background-color: #;
   }
 
-  .Eastbound-info {
+  .eastbound-info {
+  }
 
+  h3 {
+    font-size: 2em;
   }
 
   h4 {
+    font-size: 1.5em;
     font-weight: bold;
-    line-height: 25px;
   }
