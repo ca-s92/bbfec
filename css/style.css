@@ -3,14 +3,13 @@
 }
 
 body {
-  font-size: 12px;
+  font-size: 10px;
   font-family: sans-serif;
   background-color: #ccc;
-  color: #fff;
 }
 
 .container {  /*height and width are google 3xl pixel size*/
-  background-color: #195485;
+  background-color: #fff;
   width: 360px;
   height: 740px;
   display: block;
@@ -28,8 +27,7 @@ body {
 }
 
  .title-bar {
-  background-color: #195485;
-  color: #fff;
+  background-color: #f5f5f5;
   display: inline;
   width: 0;
   margin: 10px;
@@ -39,19 +37,16 @@ body {
 }
 
 .title-bar > .hamburger-menu {
-  background-color: #195485;
   position: fixed;
   margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
   display: inline;
 }
 
 .title-stop {
-  background-color: #195485;
   text-align: center;
 }
 
 .search {
-  background-color: #195485;
   margin-left: 90%;
   margin-top: 10px;
 }
@@ -60,21 +55,15 @@ body {
     width: 100%;
   } */
 
-  .bus-info {
-    background-color: #4B7699;
-  }
-  .eastbound {
-    
+  .Eastbound {
+
   }
 
-  .eastbound-info {
-  }
+  .Eastbound-info {
 
-  h3 {
-    font-size: 2em;
   }
 
   h4 {
-    font-size: 1.5em;
     font-weight: bold;
+    line-height: 25px;
   }
