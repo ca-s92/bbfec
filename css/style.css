@@ -3,13 +3,14 @@
 }
 
 body {
-  font-size: 10px;
+  font-size: 12px;
   font-family: sans-serif;
   background-color: #ccc;
+  color: #fff;
 }
 
 .container {  /*height and width are google 3xl pixel size*/
-  background-color: #fff;
+  background-color: #195485;
   width: 360px;
   height: 740px;
   display: block;
@@ -59,8 +60,11 @@ body {
     width: 100%;
   } */
 
+  .bus-info {
+    background-color: #4B7699;
+  }
   .eastbound {
-    background-color: #;
+    
   }
 
   .eastbound-info {
