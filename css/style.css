@@ -3,7 +3,7 @@
 }
 
 body {
-  font-size: 10px;
+  font-size: .7em;
   font-family: sans-serif;
   background-color: #ccc;
 }
@@ -29,41 +29,39 @@ body {
  .title-bar {
   background-color: #f5f5f5;
   display: inline;
-  width: 0;
-  margin: 10px;
-  padding: 0;
   font-size: 1.6em;
   /*text-align: center; */
 }
 
-.title-bar > .hamburger-menu {
+  .hamburger-menu {
+    margin: 10px 10px auto;
+  }
+
+  .search {
+    margin: 10px auto;
+  }
+
+/*.title-bar > .hamburger-menu {
   position: fixed;
   margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
-  display: inline;
-}
+  /*display: inline;
+} */
 
 .title-stop {
   text-align: center;
-}
-
-.search {
-  margin-left: 90%;
-  margin-top: 10px;
 }
 
 /*  .map {
     width: 100%;
   } */
 
-  .Eastbound {
+ .bus-info {
+   margin: 5px 0 0 10px;
+ }
 
+  h3 {
+    font-size: 1.7em;
   }
 
-  .Eastbound-info {
-
-  }
-
-  h4 {
-    font-weight: bold;
-    line-height: 25px;
+  .eastbound-info {
   }
