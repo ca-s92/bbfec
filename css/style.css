@@ -27,18 +27,26 @@ body {
 }
 
  .title-bar {
-  background-color: #f5f5f5;
+  box-sizing: border-box;
+  background-color: #fff;
+  width: 100%;
   display: inline;
   font-size: 1.6em;
+  position: relative;
   /*text-align: center; */
 }
 
   .hamburger-menu {
-    margin: 10px 10px auto;
+    background-color: #fff;
+    margin: 10px;
+    width: 50%;
   }
 
   .search {
-    margin: 10px auto;
+    background-color: #fff;
+    display: inline;
+    width: 50%;
+    margin: 10px;
   }
 
 /*.title-bar > .hamburger-menu {
