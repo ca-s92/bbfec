@@ -49,6 +49,11 @@ body {
     margin: 10px;
   }
 
+.chevron {
+  float: right;
+  margin-right: 20px;
+}
+
 /*.title-bar > .hamburger-menu {
   position: fixed;
   margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
@@ -71,5 +76,10 @@ body {
     font-size: 1.7em;
   }
 
+.eastbound {
+  display: inline-block;
+}
+
   .eastbound-info {
+    display: block;
   }
