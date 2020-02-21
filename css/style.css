@@ -76,7 +76,7 @@ body {
     font-size: 1.7em;
   }
 
-.eastbound {
+.eastbound, .northbound, .southbound, .reroute, .oos {
   display: inline-block;
 }
 
