@@ -78,6 +78,10 @@ body {
   display: inline-block;
 }
 
+.east {
+  background-color: #FFF2DF;
+}
+
   .eastbound-info {
   display: block;
   }
