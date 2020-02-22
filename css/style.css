@@ -74,8 +74,8 @@ body {
   display: inline-block;
 }
 
-.east {
-  background-color: #FFF2DF;
+.east, .north {
+  padding: 7px;
 }
 
   .eastbound-info {
