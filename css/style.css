@@ -37,14 +37,21 @@ body {
 
   .hamburger-menu {
     margin: 10px;
-    width: 50%;
+    width: 30%;
   }
 
   .search {
     display: inline;
-    width: 50%;
+    width: 30%;
     margin: 10px;
   }
+
+  .title-stop {
+    width: 30%;
+    text-align: center;
+    font-size: 1.6em;
+  }
+
 
 .chevron {
   float: right;
@@ -56,11 +63,6 @@ body {
   margin-top: 10px; /*doesn't move the menu icon -- need merge title-bar & menu icon settings*/
   /*display: inline;
 } */
-
-.title-stop {
-  text-align: center;
-  font-size: 1.6em;
-}
 
 /*  .map {
     width: 100%;
