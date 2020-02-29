@@ -37,21 +37,22 @@ body {
 
   .hamburger-menu {
     display: inline-block;
-    margin: ;
-    width: 33%;
+    width: 20%;
+    margin: 10px;
   }
 
   .search {
     display: inline-block;
     display: inline;
-    width: 33%;
-    margin: ;
+    width: 20%;
+    float: inherit;
+    margin: 10px;
   }
 
   .title-stop {
     display: inline-block;
-    width: 33%;
-    text-align: center;
+    width: 60%;
+    text-align: ;
     font-size: 1.6em;
   }
 
