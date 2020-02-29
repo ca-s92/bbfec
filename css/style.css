@@ -82,9 +82,10 @@ body {
 }
 
 .east, .north, .south, .all-reroute, .all-oos {
-  display: block;
-  padding-left: 10px;
-  margin: 10px 15px 10px 0;
+  /*display: block; */
+    background-color: #FFF2DF;
+  padding: 10px;
+  /*margin: 10px 15px 10px 0;*/
 }
 
   .eastbound-info {
