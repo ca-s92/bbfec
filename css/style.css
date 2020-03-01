@@ -77,13 +77,15 @@ body {
   }
 
    h4 {
+     font-size: 1.1em;
      font-weight: bold;
+     line-height: 1.7;
    }
 
 .eastbound, .northbound, .southbound, .reroute, .oos {
   display: inline-block;
   background-color: #FFF2DF;
-  line-height: 30px;
+  line-height: 20px;
 }
 
 .east, .north, .south, .all-reroute {
