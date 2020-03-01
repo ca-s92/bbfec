@@ -76,6 +76,10 @@ body {
     font-size: 1.7em;
   }
 
+   h4 {
+     font-weight: bold;
+   }
+
 .eastbound, .northbound, .southbound, .reroute, .oos {
   display: inline-block;
   background-color: #FFF2DF;
@@ -97,4 +101,5 @@ body {
     background-color: #FFF2DF;
     padding: 10px;
     opacity: 0.5;
+    font-style: italic;
   }
