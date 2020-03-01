@@ -79,6 +79,7 @@ body {
 .eastbound, .northbound, .southbound, .reroute, .oos {
   display: inline-block;
   background-color: #FFF2DF;
+  line-height: 30px;
 }
 
 .east, .north, .south, .all-reroute {
